@@ -1,0 +1,32 @@
+description: 'vagrant'
+'isProduction': false
+debug: true
+logToFile: false
+displayLogs: false
+logDir: '../../_logs'
+testSites: [ 1 ]
+mysql: 
+  development: 
+    host: 'localhost'
+    port: 3307
+    username: 'root'
+    password: '****'
+    database: 
+      defaultDb: 'default_db'
+      instancesDb: 'instances_db'
+  master: 
+    host: 'localhost'
+    port: 3307
+    username: 'root'
+    password: '****'
+    database: 
+      defaultDb: 'default_db'
+      instancesDb: 'instances_db'
+  replica: 
+    host: 'localhost'
+    port: 3307
+    username: 'root'
+    password: '****'
+    database: 
+      defaultDb: 'default_db'
+      instancesDb: 'instances_db'
